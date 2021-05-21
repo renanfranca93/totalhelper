@@ -1,0 +1,267 @@
+body{
+    background-color: #f8f8ff;
+    margin-bottom: 0px !important;
+}
+i{
+    margin-right: 10px;
+}
+
+#customContainer{
+    /* height: 100vh; */
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    /* position:relative; */
+    margin-left:100px;
+}
+
+
+
+
+#header{
+    background: #fff;
+    height: 60px;
+    padding-left:35px;
+    padding-top:11px;
+    margin-left: 10px;
+    
+}
+
+#menuBars{
+    background: #fff;
+    color: grey;
+    padding-top: 15px;
+    padding-right: 35px;
+    text-align: right;
+}
+
+#sidebar{
+    background: #fff;
+    height: 100vh;
+    padding:0px;
+    text-align:left;
+    max-width: 70px;
+    padding-top:11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    z-index: 1;
+    position: fixed;
+    margin-left: 0x;
+}
+
+#bar{
+    height: 60px;
+    /* background: #fff; */
+    /* text-align: end; */
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    /* color: grey; */
+
+}
+
+
+#main{
+    margin-top:15px;
+    margin-left:15px;
+    margin-right: 15px;
+    height: 85vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+.table th, .table td, .table tr{
+    border: none !important;
+    vertical-align: baseline;
+}
+
+.table thead th {
+    vertical-align: text-bottom;
+}
+
+.pageTitle{
+    float: left;
+    
+}
+
+.mediumfont{
+    font-size: 13px;
+}
+
+.secondColor:hover{
+    background-color: #635323;
+}
+
+.purpleColor{
+    background-color: #635323 !important;
+}
+
+.titlePageTitle{
+    font-weight: 500;
+    font-size: 24px;
+    color: #635323;
+    /* float: left; */
+}
+
+.grey{
+    color: grey;
+}
+.red{
+    color:darkred;
+    color:
+}
+
+.searchBox{
+    float: left;
+}
+
+.searchBox i{
+    margin: 0px !important;
+}
+
+.barIcons{
+    float: right;
+}
+
+.headerTitle{
+    color:white;
+    font-size:28px;
+    font-weight: bold;
+    padding-left:35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sidebarTitle{
+    color:white;
+    font-size:28px;
+    font-weight: bold;
+    padding-left:15px;
+    margin-bottom: 30px;;
+}
+
+.sidebarItem{
+    color:#635323;
+    font-size:20px;
+    height: 45px;
+    padding-left:20px;
+    padding-top: 11px;
+    margin-left: 0px;
+    transition: 0.3s;
+}
+
+.sidebarItem:hover{
+    background-color: #635323;
+    color:white;
+    font-size:20px;
+    height: 45px;
+    padding-left:20px;
+    padding-top: 11px;
+    transition: 0.3s;
+}
+
+.activeItem{
+    border-left:solid 4px #635323;
+}
+
+.inactiveItem{
+    border-left:solid 4px rgba(255, 0, 0, 0);;
+}
+
+.majorIcon{
+    font-size: 22px;
+    vertical-align:middle;
+} 
+
+
+
+.spacer{
+    height: 40vh;
+}
+
+.logoPadding{
+    padding-left:15px;
+}
+
+.noShowItem{
+    display: none;
+}
+
+.letraPequena{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.letraPequena p{
+    font-size: small;
+}
+
+
+
+.shadowCustom {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    0 0.5rem 1rem rgba(0, 0, 0, 0.15);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         0 0.5rem 1rem rgba(0, 0, 0, 0.15);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+
+
+  a{
+      color: #635323 !important;
+      text-decoration: none !important;
+  }
+  a:hover{
+      color: grey !important;
+  }
+
+
+
+#pagination{
+    display: block;
+    text-align: center !important;
+    width: 100%;
+}
+
+
+a.orange-link{
+    color: orange !important;
+    text-decoration: none !important;
+}
+
+a.green-link{
+    color: green !important;
+    text-decoration: none !important;
+}
+
+.tableClass th, .tableClass td, .tableClass tr{
+    border: solid 1px lightgrey !important;
+    vertical-align: baseline;
+}
+
+.titleClass {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.today {
+    background-color:#fdfdfd;
+}
+
+.floatLeft{
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-left: 15px;
+    padding-right: 25px;
+}
+
+
+@media screen and (max-width: 767px) {
+    #sidebar {
+        display: none !important;
+    }
+    #customContainer {
+        margin-left:0px;
+    }
+}
